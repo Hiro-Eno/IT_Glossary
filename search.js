@@ -2,6 +2,8 @@
 
 let eraseState = false;
 
+const searchGlossary = glossary.slice().filter((x) => x.content !== "ーーーーー");
+
 /**
  * @returns {} 検索ワード、検索件数、検索された用語集の用語(target)と内容(content)を表示
  */
@@ -14,7 +16,7 @@ function getWord() {
     const arrayTarget = [];
     const arrayContent = [];
 
-    for (const element of glossary){
+    for (const element of searchGlossary){
         if (element.target.indexOf(word.value) > -1 || element.content.indexOf(word.value) > -1){
             arrayTarget.push(element.target);
             arrayContent.push(element.content);
