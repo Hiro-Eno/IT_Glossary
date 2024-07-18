@@ -72,7 +72,7 @@ const glossary = [
 {target:`ナレッジマネジメント`, content:`従業員の持つ知識を組織の内部で蓄積、共有し、組織として活用する試みのこと。専用のシステムが導入されることもある。`},
 {target:`DMN（Decition Model and Notation）`, content:`BPMNの中で意思決定に関する部分を表現するための表記法。意思決定に必要な情報、知識、根拠などを図で書くことで共通認識を持つために使われる。`},
 {target:`ERP（Enterprise Resources Planning）`, content:`企業の基幹システムで全体を最適化。組織運営に必要なヒト・モノ・カネ・情報の資源を有効に活用するため、組織が持つ情報を一元管理して経営戦略や戦術を決定するための考え方のこと。`},
-{target:`SCM（Supply Cahin Management）`, content:`受注から納品までを一元管理。`},
+{target:`SCM（Supply Chain Management）`, content:`受注から納品までを一元管理。`},
 {target:`CRM（Customer Relationship Management）`, content:`顧客情報を管理して顧客に合った商品やサービスを提供。顧客とのやり取りを記録・分析し、業務に活かす手法や、そのためのツールのこと。`},
 {target:`インサイドセールス`, content:`営業担当者が、電話やメールなどを使って顧客とコミュニケーションをとる営業方法。`},
 {target:`リードジェネレーション`, content:`見込み顧客獲得のこと。展示会での名刺交換やセミナーの開催、Webサイトの問合せフォームからの資料請求など。`},
