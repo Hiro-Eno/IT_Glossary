@@ -1,6 +1,7 @@
 `use strict`
 
-createButtons(glossary);
+const buttonsGlossary = glossary.slice().filter((x) => x.content !== "ーーーーー");
+createButtons(buttonsGlossary);
 
 /**
  * @param {array} array 用語集(glossary)
